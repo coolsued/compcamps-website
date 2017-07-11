@@ -1,0 +1,36 @@
+html, body{
+width: 100%;
+margin: 0;
+padding: 0;
+
+background-color: #E81300;
+font-family: 'Dancing Script', cursive;
+}
+.image{
+  width: 1000px;
+  margin-top: 100px;
+  border-radius: 50%;
+
+}
+a{
+  color:purple;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover{
+  text-decoration: none;
+  color: green;
+}
+.container{
+  text-align: center;
+
+}
+.nav{
+  margin: 0;
+  padding: 0;
+  background-color: #006ADB;
+}
+.nav-link{
+  display: inline-block;
+  padding: 25px;
+}
