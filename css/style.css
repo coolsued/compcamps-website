@@ -3,7 +3,7 @@ width: 100%;
 margin: 0;
 padding: 0;
 
-background-color: #E81300;
+background-color: red;
 font-family: 'Dancing Script', cursive;
 }
 .image{
@@ -13,24 +13,35 @@ font-family: 'Dancing Script', cursive;
 
 }
 a{
-  color:purple;
+  color:orange
+  ;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
 }
 a:hover{
+  -webkit-transition: all 0.5s;
   text-decoration: none;
-  color: green;
+  color: gold;
 }
 .container{
   text-align: center;
+}
+table{
+  width: 60%;
+  margin: 0px 20% 0px 20%;
+  padding-left: 20%;
+  padding-right: 20%;
 
 }
 .nav{
   margin: 0;
   padding: 0;
-  background-color: #006ADB;
+  background-color: lightblue;
 }
 .nav-link{
   display: inline-block;
   padding: 25px;
+}
+.active{
+  color: green;
 }
