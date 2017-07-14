@@ -1,13 +1,13 @@
 var favSongs = [
   {
     order: 1,
-    song: "All Star",
-    artist: "Smash Mouth"
+    song: "power",
+    artist: "Kanye West"
   },
   {
     order: 2,
-    song: "Sandstorm",
-    artist: "Darude"
+    song: "we will rock you",
+    artist: "Queen"
   }
 ];
 console.log(favSongs);
@@ -24,5 +24,5 @@ for(var i in favSongs) {
 }
 
 tbody.addEventListner('click' , function() {
-  
+
 }
